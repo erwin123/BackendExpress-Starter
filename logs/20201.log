@@ -1,0 +1,215 @@
+Fri Jan 03 2020 15:08:57 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:09:20 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:09:40 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:10:29 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:10:37 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:11:58 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:17:01 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:19:02 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:20:05 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 15:57:54 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 16:01:40 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 16:02:44 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 16:53:49 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 16:57:05 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 16:58:20 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 17:01:41 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 17:02:40 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ ""
+ === End Error while add user! ===
+
+Fri Jan 03 2020 17:07:37 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Cannot use the OUTPUT option when passing a constant to a stored procedure.","code":"EREQUEST","number":179,"state":1,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"EXEC [dbo].[UserRegistration] N'fiki', N'fiki', N'fiki@acset.co', N'08123456789', N'DKI Jakarta', N'Acset2019', 0 OUTPUT, N'' OUTPUT"},"original":{"message":"Cannot use the OUTPUT option when passing a constant to a stored procedure.","code":"EREQUEST","number":179,"state":1,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"EXEC [dbo].[UserRegistration] N'fiki', N'fiki', N'fiki@acset.co', N'08123456789', N'DKI Jakarta', N'Acset2019', 0 OUTPUT, N'' OUTPUT"},"sql":"EXEC [dbo].[UserRegistration] N'fiki', N'fiki', N'fiki@acset.co', N'08123456789', N'DKI Jakarta', N'Acset2019', 0 OUTPUT, N'' OUTPUT"}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 17:09:19 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 17:09:40 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Fri Jan 03 2020 17:13:39 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ {}
+ === End Error while add user! ===
+
+Mon Jan 06 2020 09:15:16 GMT+0700 (Indochina Time)
+ === Error while login user! === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Must declare the scalar variable \"@verify\".","code":"EREQUEST","number":137,"state":2,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @verify as verify, @success as success, @ErrorMessage as ErrorMessage;"},"original":{"message":"Must declare the scalar variable \"@verify\".","code":"EREQUEST","number":137,"state":2,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @verify as verify, @success as success, @ErrorMessage as ErrorMessage;"},"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @verify as verify, @success as success, @ErrorMessage as ErrorMessage;"}
+ === End Error while login user! ===
+
+Mon Jan 06 2020 09:15:50 GMT+0700 (Indochina Time)
+ === Error while login user! === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Must declare the scalar variable \"@return_value\".","code":"EREQUEST","number":137,"state":2,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"original":{"message":"Must declare the scalar variable \"@return_value\".","code":"EREQUEST","number":137,"state":2,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"}
+ === End Error while login user! ===
+
+Mon Jan 06 2020 09:16:12 GMT+0700 (Indochina Time)
+ === Error while login user! === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Procedure or function 'UserLogin' expects parameter '@success', which was not supplied.","code":"EREQUEST","number":201,"state":4,"class":16,"serverName":"ASGARD","procName":"UserLogin","lineNumber":0,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t[dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"original":{"message":"Procedure or function 'UserLogin' expects parameter '@success', which was not supplied.","code":"EREQUEST","number":201,"state":4,"class":16,"serverName":"ASGARD","procName":"UserLogin","lineNumber":0,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t[dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t[dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"}
+ === End Error while login user! ===
+
+Mon Jan 06 2020 09:16:43 GMT+0700 (Indochina Time)
+ === Error while login user! === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Procedure or function 'UserLogin' expects parameter '@success', which was not supplied.","code":"EREQUEST","number":201,"state":4,"class":16,"serverName":"ASGARD","procName":"UserLogin","lineNumber":0,"sql":"DECLARE\t@return_value int, @success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"original":{"message":"Procedure or function 'UserLogin' expects parameter '@success', which was not supplied.","code":"EREQUEST","number":201,"state":4,"class":16,"serverName":"ASGARD","procName":"UserLogin","lineNumber":0,"sql":"DECLARE\t@return_value int, @success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"sql":"DECLARE\t@return_value int, @success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239'; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"}
+ === End Error while login user! ===
+
+Mon Jan 06 2020 09:17:40 GMT+0700 (Indochina Time)
+ === Error while login user! === 
+ {"name":"SequelizeDatabaseError","parent":{"message":"Must declare the scalar variable \"@return_value\".","code":"EREQUEST","number":137,"state":2,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239', @success = @success OUTPUT, @ErrorMessage = @ErrorMessage OUTPUT; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"original":{"message":"Must declare the scalar variable \"@return_value\".","code":"EREQUEST","number":137,"state":2,"class":15,"serverName":"ASGARD","procName":"","lineNumber":1,"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239', @success = @success OUTPUT, @ErrorMessage = @ErrorMessage OUTPUT; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"},"sql":"DECLARE\t@success int, @ErrorMessage nvarchar(255);  EXEC\t@return_value = [dbo].[UserLogin] @userName = N'lutfia', @password = N'lutfi239', @success = @success OUTPUT, @ErrorMessage = @ErrorMessage OUTPUT; IF @success = 1 SELECT\t@success as success, u.id, u.userName, u.fullName, u.email, u.noHp, u.address, u.isActive, u.deleted FROM [express].[dbo].[Users] U WHERE u.userName = N'lutfia'; ELSE SELECT @success as success, @ErrorMessage as ErrorMessage;"}
+ === End Error while login user! ===
+
+Mon Jan 06 2020 09:30:55 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ "Violation of UNIQUE KEY constraint 'UQ__Users__6F70DC9BE5C93B7D'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (081283221362)."
+ === End Error while add user! ===
+
+Mon Jan 06 2020 09:31:37 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ "Violation of UNIQUE KEY constraint 'UQ__Users__6F70DC9BE5C93B7D'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (081283221362)."
+ === End Error while add user! ===
+
+Mon Jan 06 2020 09:31:52 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ "Violation of UNIQUE KEY constraint 'UQ__Users__AB6E6164AB7F55FB'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (m.rezha@ymail.com)."
+ === End Error while add user! ===
+
+Mon Jan 06 2020 09:31:58 GMT+0700 (Indochina Time)
+ === Error while add user! === 
+ "Violation of UNIQUE KEY constraint 'UQ__Users__66DCF95CC6F134F3'. Cannot insert duplicate key in object 'dbo.Users'. The duplicate key value is (rezha)."
+ === End Error while add user! ===
+
+Mon Jan 06 2020 13:08:59 GMT+0700 (Indochina Time)
+ === Error while login user! === 
+ {}
+ === End Error while login user! ===
+
+Mon Jan 06 2020 13:09:59 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:23:52 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:24:02 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:25:55 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:26:12 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:26:14 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:26:17 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:26:43 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 13:59:36 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 14:30:12 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 14:44:07 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+
+Mon Jan 06 2020 17:09:01 GMT+0700 (Indochina Time)
+ === Username atau password anda salah. === 
+ null
+ === End Username atau password anda salah. ===
+

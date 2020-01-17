@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "user-management",
+    "password": "Acset2019",
+    "database": "express",
+    "host": "asgard",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "asgard",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "asgard",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  }
+}

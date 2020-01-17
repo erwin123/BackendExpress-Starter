@@ -1,0 +1,24 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "*",
+    "cors": "*",
+    "debug": "*",
+    "dotenv": "*",
+    "express": "*",
+    "http-errors": "*",
+    "jsonwebtoken": "*",
+    "md5": "*",
+    "morgan": "*",
+    "mysql2": "*",
+    "pug": "*",
+    "sequelize": "*",
+    "sequelize-cli": "*",
+    "tedious": "*"
+  }
+}
